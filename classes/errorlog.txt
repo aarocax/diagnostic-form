@@ -1,0 +1,22 @@
+* Hostname was NOT found in DNS cache
+*   Trying 89.25.223.88...
+* Connected to www.salesmanago.pl (89.25.223.88) port 80 (#0)
+> POST /api/contact/upsert HTTP/1.1
+Host: www.salesmanago.pl
+Accept: */*
+Content-Type: application/json
+Content-Length: 431
+
+* upload completely sent off: 431 out of 431 bytes
+< HTTP/1.1 200 OK
+< Date: Wed, 13 Mar 2019 13:39:22 GMT
+* Server Apache is not blacklisted
+< Server: Apache
+< Cache-Control: max-age=0
+< Expires: Wed, 13 Mar 2019 13:39:22 GMT
+< Connection: close
+< Transfer-Encoding: chunked
+< Content-Type: application/json;charset=UTF-8
+< Set-Cookie: SERVERID=B; path=/
+< 
+* Closing connection 0

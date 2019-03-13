@@ -1,0 +1,652 @@
+/* formulario diagnostico transformacion */
+
+.formulario_diagnostico {
+    padding: 50px 20px;
+}
+
+.formulario_diagnostico input,
+.formulario_diagnostico select,
+.formulario_diagnostico button {
+    border: none;
+    outline: none;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.formulario_diagnostico select,
+.formulario_diagnostico button {
+    -webkit-appearance: none;
+}
+
+
+
+.formulario_diagnostico,
+.formulario_diagnostico button {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.formulario_diagnostico .formulario_caja {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #ffffff;
+    border: 1px solid #d4d4d4;
+    padding: 2px 20px 2px 6px;
+    font-size: 16px;
+    border-radius: 6px;
+    color: #777777;
+}
+
+.formulario_diagnostico .formulario_caja.select {
+    background: #ffffff url("images/down-arrow.svg") no-repeat right center;
+    background-size: 8px;
+    background-position-x: 92%;
+}
+
+.formulario_diagnostico .formulario_recoger_datos .formulario_entrada .formulario_caja.select {
+    background-position-x: 98%;
+}
+
+.formulario_diagnostico h1 {
+    text-align: center;
+    font-weight: 700;
+    color: #33a0d2;
+    line-height: 38px;
+}
+
+.formulario_diagnostico h2 {
+    color: #666666;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.formulario_select {
+    text-align: center;
+}
+
+.formulario_diagnostico p {
+    color: #777777;
+    text-align: center;
+}
+
+.formulario_diagnostico .formulario_preguntas .texto p {
+    min-height: 45px;
+}
+
+.formulario_diagnostico p strong {
+    color: #555555;
+}
+
+.formulario_preguntas {
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.formulario_preguntas .pregunta_uno,
+.formulario_preguntas .pregunta_dos,
+.formulario_preguntas .pregunta_tres {
+    padding: 10px 0;
+}
+
+.formulario_preguntas .pregunta_tres p {
+    text-align: center;
+}
+
+.formulario_preguntas ol {
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+    text-align: left;
+    padding-inline-start: 25px;
+    padding-inline-end: 15px;
+    display: flex;
+    flex-flow: column;
+}
+
+.formulario_preguntas ol li {
+    color: #777777;
+    line-height: 25px;
+    /*display: flex;*/
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+
+.formulario_recoger_datos {
+    padding: 10px 20px;
+}
+
+.formulario_recoger_datos .error {
+    width: 100%;
+    text-align: right;
+    margin-top: 3px;
+    color: #ff0000;
+}
+
+.formulario_recoger_datos .formulario_enviar .error {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.formulario_entrada {
+    display: block;
+    margin: 0 auto;
+}
+
+.formulario_entrada .formulario_elemento input,
+.formulario_entrada .formulario_elemento select {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.formulario_recoger_datos label {
+    padding: 5px 0;
+}
+
+.formulario_recoger_datos label,
+.formulario_recoger_datos .formulario_caja {
+    display: block;
+    color: #777777;
+
+}
+
+.formulario_recoger_datos .formulario_elemento.formulario_enviar {
+    padding: 20px 0;
+}
+
+.formulario_enviar .formulario_boton_enviar {
+    background-color: #33a0d2;
+    color: #ffffff;
+    padding: 25px 40px;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 3px 3px 8px #222;
+    text-align: center;
+}
+
+.formulario_enviar small {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    color: #777777;
+
+}
+
+.formulario_diagnostico .formulario_elemento {
+    display: block;
+    text-align: left;
+    padding: 10px 0;
+}
+
+.formulario_select .formulario_elemento {
+    text-align: center;
+}
+
+.formulario_preguntas .radio,
+.formulario_preguntas .checkbox {
+    /* display: flex; */
+    /* flex-flow: column; */
+    display: block;
+    float: left;
+    width: 5%;
+    margin-right: 7px;
+    margin-top: 7px;
+}
+
+.formulario_preguntas .respuesta_contenedor {
+    display: block;
+    float: right;
+    width: 90%;
+}
+
+.formulario_preguntas .radio {
+    -webkit-appearance: radio;
+}
+
+.formulario_preguntas .checkbox {
+    -webkit-appearance: checkbox;
+}
+
+.formulario_diagnostico .formulario_preguntas .botonera {
+    display: flex;
+    margin-top: 30px;
+}
+
+.formulario_diagnostico .formulario_preguntas .botonera .botones {
+    margin: 0 auto;
+}
+
+.formulario_diagnostico .formulario_preguntas .botonera .botones button {
+    background-color: #33a0d2;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 5px 5px;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 3px 3px 8px #222;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.formulario_diagnostico .formulario_preguntas .botonera .botones button:hover {
+    background-color: #125675;
+}
+
+.formulario_diagnostico .mensaje-validacion {
+    text-align: center;
+    font-size: 18px;
+    color: #ff0000;
+}
+
+.formulario_diagnostico .formulario_preguntas .flechas {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+.formulario_diagnostico .formulario_preguntas .flechas .flechas_contenedor {
+    width: 210px;
+    margin: 0 auto;
+    /*overflow: hidden;*/
+}
+
+.formulario_diagnostico .formulario_preguntas .flechas .flecha_anterior {
+    float: left;
+}
+
+.formulario_diagnostico .formulario_preguntas .flechas .flecha_siguiente {
+    float: right;
+}
+
+.formulario_diagnostico .formulario_preguntas .flechas img {
+    width: auto;
+    height: 100%;
+    max-width: unset;
+}
+
+.formulario_diagnostico .formulario_preguntas .flechas button {
+    opacity: 0.6;
+    transition: opacity 0.15s ease-in-out;
+}
+
+.formulario_diagnostico .formulario_preguntas .flechas button:disabled {
+    opacity: 0.1;
+
+}
+
+.formulario_diagnostico .formulario_preguntas .flechas button:hover {
+    opacity: 1;
+
+}
+
+.formulario_diagnostico .formulario_preguntas .flechas .flecha_anterior,
+.formulario_diagnostico .formulario_preguntas .flechas .flecha_siguiente {
+    height: 90px;
+    display: block;
+    background: none;
+}
+
+.formulario_diagnostico .formulario_preguntas p.centrado {
+    text-align: center;
+    min-height: 45px;
+    float: left;
+    width: 100%;
+
+}
+
+.formulario_diagnostico .formulario_preguntas p.centrado strong {
+    margin: 0 auto;
+}
+
+.formulario_diagnostico .progreso {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+    color: #333333;
+}
+
+.formulario_diagnostico .progreso span {
+    color: #777;
+    font-style: none !important;
+}
+
+.formulario_diagnostico .progreso span.final {
+    color: #333333;
+}
+
+.formulario_recoger_datos .formulario_elemento.formulario_enviar.formulario_descarga {
+    margin: 0 auto;
+    width: fit-content;
+    text-align: center;
+    float: unset;
+}
+
+.formulario_recoger_datos  .formulario_descarga h2 {
+    float: unset;
+}
+
+.formulario_recoger_datos  .formulario_descarga .formulario_boton_enviar.descargar {
+    display: inline;
+}
+
+.formulario_recoger_datos  .formulario_descarga .formulario_boton_enviar.descargar img {
+	margin-right: 5px;
+}
+
+.formulario_diagnostico .mensaje_final {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.formulario_diagnostico .mensaje_final h3 {
+    margin-top: 0;
+}
+
+
+
+@media screen and (min-width: 600px) {
+
+    .formulario_preguntas {
+        width: 600px;
+        margin: 0 auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .formulario_preguntas .pregunta_uno,
+    .formulario_preguntas .pregunta_dos,
+    .formulario_preguntas .pregunta_tres {
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+
+    .formulario_recoger_datos {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .formulario_entrada .formulario_elemento.select_caja {
+        width: 49%;
+        display: inline-block;
+        margin-left: 2px;
+    }
+
+    .formulario_preguntas .pregunta_tres {
+
+        overflow: hidden;
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+    .formulario_diagnostico h1 {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    /* .formulario_diagnostico {
+        padding: 20px 20px;
+    } */
+
+    .formulario_recoger_datos {
+        overflow: hidden;
+    }
+
+    .formulario_recoger_datos .formulario_elemento {
+        text-align: left;
+    }
+
+    .formulario_pregunta ol {
+        text-align: center;
+    }
+
+    .formulario_recoger_datos .formulario_caja {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .formulario_recoger_datos label,
+    .formulario_recoger_datos .formulario_caja {
+        display: inline-block;
+    }
+
+    .formulario_preguntas .pregunta_tres {
+        margin: 0 auto;
+    }
+
+
+}
+
+@media screen and (max-width: 1250px) {
+
+    .pregunta_final .pregunta_uno {
+        padding-bottom: 0;
+
+    }
+
+    .pregunta_final .pregunta_uno ol {
+        margin-bottom: 0;
+    }
+
+    .pregunta_final .pregunta_dos {
+        padding-top: 0;
+
+    }
+
+    .pregunta_final .pregunta_dos ol {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+
+
+
+    .formulario_select {
+        overflow: hidden;
+        width: 400px;
+        margin: 20px auto 0 auto;
+    }
+
+    .formulario_diagnostico h1 {
+        font-size: 2.5em;
+        line-height: 51px;
+    }
+    .formulario_diagnostico h2 {
+        /*float: left;*/
+        margin-top: 10px;
+        font-size: 32px;
+    }
+
+    .formulario_select .formulario_elemento {
+        /* float: right; */
+    }
+
+    .formulario_preguntas {
+        width: 800px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+
+    .formulario_preguntas ol {
+        text-align: left;
+    }
+
+    .formulario_preguntas .pregunta_uno,
+    .formulario_preguntas .pregunta_dos {
+        width: 45%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .formulario_preguntas .pregunta_tres {
+        width: 600px;
+        float: left;
+        margin-left: 100px;
+    }
+
+    .formulario_preguntas p,
+    ol,
+    li {
+        width: auto;
+    }
+
+    .formulario_preguntas p {
+        margin: 0;
+    }
+
+    .formulario_preguntas ol {
+        margin-top: 5px;
+    }
+
+    .formulario_preguntas .pregunta_uno {
+        float: left;
+    }
+
+    .formulario_preguntas .pregunta_dos {
+        float: right;
+    }
+
+    .formulario_preguntas .pregunta_uno {
+        border-right: 1px solid #33a0d2;
+        padding-right: 25px;
+    }
+
+    .formulario_diagnostico p {
+        text-align: left;
+    }
+
+    .formulario_preguntas .texto {
+        padding: 0 15px;
+        font-size: 14px;
+    }
+
+    .formulario_recoger_datos {
+        padding-top: 0;
+        width: 730px;
+    }
+
+    .formulario_recoger_datos .formulario_entrada {
+        width: 440px;
+        /*float: left;*/
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+
+    .formulario_recoger_datos .formulario_entrada .formulario_elemento {
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .formulario_recoger_datos .formulario_entrada .formulario_elemento.select_caja {
+        width: 49%;
+    }
+
+    .formulario_recoger_datos .formulario_elemento.formulario_enviar {
+        width: auto;
+        float: none;
+        padding-top: 25px;
+    }
+
+    .formulario_enviar .formulario_boton_enviar {
+        padding: 0;
+        margin: 0 auto;
+        width: 250px;
+        height: 80px;
+    }
+
+    .formulario_enviar small {
+        text-align: center;
+        margin-top: 8px;
+        padding-left: 5px;
+    }
+
+    .formulario_entrada .formulario_elemento label {
+        min-width: 150px;
+    }
+
+    .formulario_entrada .formulario_elemento.select_caja label {
+        min-width: 53px;
+    }
+
+    .formulario_entrada .formulario_elemento input {
+        width: calc(100% - 150px);
+    }
+
+    .formulario_entrada .formulario_elemento select {
+        width: calc(100% - 60px);
+    }
+
+  
+
+    .formulario_diagnostico .formulario_recoger_datos .formulario_entrada .formulario_caja.select {
+        background-position-x: 94%;
+    }
+
+    .formulario_diagnostico .formulario_preguntas .botonera {
+        display: -webkit-inline-box;
+        width: 100%;
+    }
+
+    .formulario_diagnostico .formulario_preguntas .botonera.movil {
+        display: none;
+
+    }
+
+    .formulario_diagnostico .formulario_preguntas .flechas {
+        overflow: unset;
+        width: unset;
+        position: absolute;
+        /* overflow: hidden;
+        width: 1000px;
+        position: absolute; */
+        /* top: 120%;
+        left: 25%; */
+    }
+
+    .formulario_diagnostico .formulario_preguntas .flechas .flechas_contenedor {
+        width: unset;
+        /* width: auto; */
+    }
+
+    .formulario_diagnostico .formulario_preguntas .botonera .botones {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .formulario_diagnostico .formulario_preguntas .flechas .flecha_anterior,
+    .formulario_diagnostico .formulario_preguntas .flechas .flecha_siguiente {
+        position: absolute;
+        /* position: sticky; */
+        float: unset;
+        height: 55px;
+    }
+
+    .formulario_diagnostico .formulario_preguntas .flechas .flecha_anterior {
+        top: 70px;
+        right: 20px;
+        /* float: left;  */
+
+    }
+
+    .formulario_diagnostico .formulario_preguntas .flechas .flecha_siguiente {
+        top: 70px;
+        left: 795px;
+        /* float: right; */
+
+    }
+
+
+
+}
+
+
+.error{
+  color: red;
+}
+
