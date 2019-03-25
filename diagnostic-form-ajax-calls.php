@@ -96,13 +96,12 @@ function saveInDataBase($responses_array, $contact_id) {
 
 function sendMail($email, $pdf_file_url) {
 	$to = $email;
-	$headers = array('Content-Type: text/html; charset=UTF-8','From: Ticnegocios <camaravalencia@camaravalencia.com>');
+	$headers = array('Content-Type: text/html; charset=UTF-8','From: Ticnegocios <ticnegocios@camaravalencia.com>');
 	$subject = 'Informe madurez digital';
-	$body = '<table style="background:#f3f3f3;width:100%;"><tr><td><table width="600" style="margin:0 auto;background:white;padding:20px;"><tr style="background:#264875;padding:20px 0;"><td><img src="https://ticnegocios.camaravalencia.com/wp-content/themes/espaciotic/images/logo.png" alt=""></td></tr>
-	<tr><td><p>¡Te damos la enhorabuena por hacer tu auto-diagnóstico de madurez digital! Eso significa que quieres ser más competitivo en el mercado y conducir tu negocio hacia la innovación.</p>';
+	$body = '<table style="background:#f3f3f3;width:100%;"><tr><td><table width="600" style="margin:0 auto;background:white;padding:20px;"><tr style="padding:20px 0"><td style="text-align:right;"><img src="https://ticnegocios.camaravalencia.com/wp-content/themes/espaciotic/images/logo-camara-valencia.png" alt="" height="50"></td></tr><tr style="background:#264875;padding:20px 0;"><td><img src="https://ticnegocios.camaravalencia.com/wp-content/themes/espaciotic/images/logo.png" alt=""></td></tr><tr><td><p>¡Te damos la enhorabuena por hacer tu auto-diagnóstico de madurez digital! Eso significa que quieres ser más competitivo en el mercado y conducir tu negocio hacia la innovación.</p>';
 	$body .= '<p>Puedes descargar tu informe de auto-diagnóstico aquí:</p>';
 	$body .= '<p style="text-align:center;padding:20px;"><a style="text-decoration:none;padding:10px 20px;background:#264875;color:#ffffff;" href='.$pdf_file_url.'>Descarga tu informe</a></p>';
-	$body .= '<p>Además, te invitamos a contactar con nuestros consultores de transformación digital, quienes te brindarán el asesoramiento que necesitas para hacer digital tu negocio. Puedes llamar al 963 10 39 24 o enviar un mensaje a <a href="mailto:oficinadigital@camaravalencia.com">oficinadigital@camaravalencia.com</a></p>.';
+	$body .= '<p>Si deseas obtener un diagnóstico ampliado y asesoría para llevar a cabo tu proyecto de transformación digital, contacta con nuestros consultores por el teléfono 963 10 39 24 o envía un mensaje a <a href="mailto:oficinadigital@camaravalencia.com">oficinadigital@camaravalencia.com.</a> Por un tiempo limitado estaremos ofreciendo consultoría y la elaboración de un plan personalizado de digitalización sin ningún coste.</p>.';
 	$body .= '<p>¿A qué esperas? ¡Hazte Digital!</p>';
 	$body .= '</td></tr></table></td></tr></table>';
 	

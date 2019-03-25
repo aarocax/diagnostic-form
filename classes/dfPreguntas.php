@@ -76,13 +76,13 @@ class dfPreguntas {
         'Respuesta 1-1-2-a' => array(
           'puntuacion' => 3,
           'enunciado' => "Mejorar mi sistema de gestión ventas",
-          'autodiagnostico' => "No hay duda de que optimizar la gestion de ventas redundará en una mayor rentabilidad del negocio, pero en la economía actual esto no es suficiente para competir en mercados que se hacen cada vez más digitales. La transformación debe darse en todas la áreas de tu negocio, no solo en las ventas."
+          'autodiagnostico' => "No hay duda de que optimizar la gestión de ventas redundará en una mayor rentabilidad del negocio, pero en la economía actual esto no es suficiente para competir en mercados que se hacen cada vez más digitales. La transformación debe darse en todas la áreas de tu negocio, no solo en las ventas."
         ),
         
         'Respuesta 1-1-2-b' => array(
           'puntuacion' => 5,
           'enunciado' => "Digitalizar mi tienda física (inventario, logística, transporte, etc.)",
-          'autodiagnostico' => "Está muy bien que dirijas esfuerzos en optimizar procesos operativos, logísticos y en mejorar la experiencia de compra de tus clientes, pero no olvides que las personas cada vez acuden más a los canales online para realizar sus compras y que todas las acciones de la transformación digital deben girar en torno a las necesidades de tus cliente."
+          'autodiagnostico' => "Está muy bien que dirijas esfuerzos hacia optimizar procesos operativos, logísticos y en mejorar la experiencia de compra de tus clientes, pero no olvides que las personas acuden cada vez acuden más a los canales online para realizar sus compras y que todas las acciones de la transformación digital deben girar en torno a las necesidades de tus cliente."
         ),
         
         'Respuesta 1-1-2-c' => array(
@@ -104,7 +104,7 @@ class dfPreguntas {
         'Respuesta 1-2-1-a' => array(
           'puntuacion' => 1,
           'enunciado' => "Práctica y tradicional. Los clientes vienen a comprar los productos que ya conocen",
-          'autodiagnostico' => "Tu estrategia se basa en rentabilizar las ventas realizadas a muchos compradores instantáneos, y tal vez te haya funcionado bien hasta ahora, pero la tendencia es que cada vez más gente compra a través del comercio electrónico, se informa suficientemente antes de tomar la decisión de compra y espera tener una experiencia personalizada. Es vital para tu negocio trabajar en mejorar la experiencia de compra si deseas mantenerte comeptitivo en el mercado."
+          'autodiagnostico' => "Tu estrategia se basa en rentabilizar las ventas realizadas a muchos compradores instantáneos, y tal vez te haya funcionado bien hasta ahora, pero la tendencia es que cada vez más gente compra a través del comercio electrónico, se informa suficientemente antes de tomar la decisión de compra y espera tener una experiencia personalizada. Es vital para tu negocio trabajar en mejorar la experiencia de compra si deseas mantenerte competitivo en el mercado."
         ),
         
         'Respuesta 1-2-1-b' => array(
@@ -122,7 +122,7 @@ class dfPreguntas {
         'Respuesta 1-2-1-d' => array(
           'puntuacion' => 5,
           'enunciado' => "Personalizada: El cliente recibe información y atención según sus gustos y preferencias",
-          'autodiagnostico' => "Estás un paso adelante de muchos otros en el sector. Sabes que conocer bien a tus clientes y brindarles atención personalizada genera fidelidad, incrementa las ventas y atrae nuevos clientes. Herramientas como el CRM no solo te permiten hacer seguimiento de cada paso y etapa de un cliente, sino que te ayudan a automatizar tareas, analizar más información sobre tus clientes para entenderlos mejor y relacionarte con cada uno de ellos de manera individual y personalizada. Además, tecnologías como el internet de las cosas hacen posible una mayor personalización de productos/servicios, gracias a la recolección de datos y conexión directa con tus sistemas de infomración."
+          'autodiagnostico' => "Estás un paso adelante de muchos otros en el sector. Sabes que conocer bien a tus clientes y ofrecerles atención personalizada genera fidelidad, incrementa las ventas y atrae nuevos clientes. Herramientas como el CRM no solo te permiten hacer seguimiento en cada paso y etapa de un cliente, sino que te ayudan a automatizar tareas, analizar más información sobre tus clientes para entenderlos mejor y relacionarte con cada uno de ellos de manera individual y personalizada. Además, tecnologías como el internet de las cosas hacen posible una mayor personalización de productos/servicios, gracias a la recolección de datos y conexión directa con tus sistemas de información."
         )
       )
     ),
@@ -132,18 +132,18 @@ class dfPreguntas {
         'Respuesta 1-2-2-a' => array(
           'puntuacion' => 2,
           'enunciado' => "Página web / blog / Redes sociales",
-          'autodiagnostico' => "Vas por buen camino, la presencia en internet es una enorme puerta de entrada para tus clientes potenciales y una gran herramienta de comunicación, sin mencionar que es una fuente de datos muy valiosa, pero no olvides que los consumidores cada vez acuden más a las plataformas online para realizar sus compras, el comercio electrónico es fundamental en la transformación digital."
+          'autodiagnostico' => "Vas por buen camino, la presencia en internet es una enorme puerta de entrada para tus clientes potenciales y una gran herramienta de comunicación, sin mencionar que es una fuente de datos muy valiosa, pero no olvides que los consumidores acuden cada vez acuden más a las plataformas online para realizar sus compras, el comercio electrónico es fundamental en la transformación digital."
         ),
         
         'Respuesta 1-2-2-b' => array(
           'puntuacion' => 3,
           'enunciado' => "Tienda online y plataformas intermedias (Amazon, eBay, Groupon, etc.)",
-          'autodiagnostico' => "Sabes aprovechar las ventajas y oportunidades de negocio que brinda Internet, pero no olvides que una estrategia de marketing digital te permite, entro otros, promocionar tu marca y tus productos, desplegar campañas publicitarias, captar clientes potenciales, convertirlos en clientes y fidelizarlos para que sean referentes, además de proporcionar una valiosa cantidad de datos para futuras estrategias de mercado."),
+          'autodiagnostico' => "Sabes aprovechar las ventajas y oportunidades de negocio que brinda Internet, pero no olvides que una estrategia de marketing digital te permite, entro otros, promocionar tu marca y tus productos, desplegar campañas publicitarias, captar clientes potenciales, convertirlos en clientes actuales y fidelizarlos para que sean referentes, además de proporcionar una valiosa cantidad de datos para futuras estrategias de mercado."),
         
         'Respuesta 1-2-2-c' => array(
           'puntuacion' => 5,
           'enunciado' => "Herramientas de marketing digital (Ads, Hubspot, DoubleClick, etc.)",
-          'autodiagnostico' => "El marketing tradicional se ha extendido al mundo digital y has acertado al tener una estrategia de markering digital para tu negocio. La tendencia es que la línea entre lo físico y lo virtual desaparece y tú ya estás preparado para desarrollar estrategias de marekting integral."
+          'autodiagnostico' => "El marketing tradicional se ha extendido al mundo digital y has acertado al tener una estrategia de marketing digital para tu negocio. La tendencia es que la línea entre lo físico y lo virtual desaparece y tú ya estás preparado para desarrollar estrategias de marketing integral."
         ),
         
         'Respuesta 1-2-2-d' => array(
@@ -154,7 +154,7 @@ class dfPreguntas {
       )
     ),
     '1-3-1' => array(
-      'enunciado' => "¿Cómo gestionas tu relación con tus clientes?",
+      'enunciado' => "¿Cómo gestiónas tu relación con tus clientes?",
       'respuestas' => array(
         'Respuesta 1-3-1-a' => array(
           'puntuacion' => 2,
@@ -193,7 +193,7 @@ class dfPreguntas {
         'Respuesta 1-3-2-b' => array(
           'puntuacion' => 3,
           'enunciado' => "La visión digital está a cargo de los jefes de las áreas funcionales",
-          'autodiagnostico' => "Una buena manera de preparar el camino para la trasnformación digital es que los jefes de área propaguen la visión digital del negocio a lo largo y ancho de sus departamentos. Solo tendrá éxito el proceso de tansformación cuando todos los miembros de la organización, vertical y horizontalmente, compartan la misma visión."
+          'autodiagnostico' => "Una buena manera de preparar el camino para la transformación digital es que los jefes de área propaguen la visión digital del negocio a lo largo y ancho de sus departamentos. Solo tendrá éxito el proceso de transformación cuando todos los miembros de la organización, vertical y horizontalmente, compartan la misma visión."
         ),
         
         'Respuesta 1-3-2-c' => array(
@@ -205,7 +205,7 @@ class dfPreguntas {
         'Respuesta 1-3-2-d' => array(
           'puntuacion' => 5,
           'enunciado' => "Sí, la visión digital es prioridad en la captación de talento y la innovación",
-          'autodiagnostico' => "¡Enhorabuena! Has incorproado la gestión del talento digital como factor estratégico de tu negocio. No olvides que las políticas, prácticas y herramientas de gestión del talento digital deben ser revisadas y actualizadas con regularidad."
+          'autodiagnostico' => "¡Enhorabuena! Has incorporado la gestión del talento digital como factor estratégico de tu negocio. No olvides que las políticas, prácticas y herramientas de gestión del talento digital deben ser revisadas y actualizadas con regularidad."
         )
       )
     ),
@@ -216,13 +216,13 @@ class dfPreguntas {
         'Respuesta 2-1-1-a' => array(
           'puntuacion' => 1,
           'enunciado' => "Sé que aporta beneficios pero aún no la he aplicado a mi negocio",
-          'autodiagnostico' => "Estar conciente de los beneficios que la transformación digital puede aportar a tu negocio es importante, pero no dejes pasar mucho tiempo para trazarte un plan que te permita llevar tu negocio hacia la digitalización."
+          'autodiagnostico' => "Estar consciente de los beneficios que la transformación digital puede aportar a tu negocio es importante, pero no dejes pasar mucho tiempo para trazarte un plan que te permita llevar tu negocio hacia la digitalización."
         ),
         
         'Respuesta 2-1-1-b' => array(
           'puntuacion' => 2,
           'enunciado' => "Es importante y ya me he planteado algunos objetivos concretos",
-          'autodiagnostico' => "Estar conciente de los beneficios que la transformación digital puede aportar a tu negocio es importante, pero no dejes pasar mucho tiempo para trazarte un plan que te permita llevar tu negocio hacia la digitalización."
+          'autodiagnostico' => "Estar consciente de los beneficios que la transformación digital puede aportar a tu negocio es importante, pero no dejes pasar mucho tiempo para trazarte un plan que te permita llevar tu negocio hacia la digitalización."
         ),
         
         'Respuesta 2-1-1-c' => array(
@@ -284,7 +284,7 @@ class dfPreguntas {
         'Respuesta 2-2-1-c' => array(
           'puntuacion' => 7,
           'enunciado' => "Usamos dispositivos automáticos y sistemas de monitorización de la producción",
-          'autodiagnostico' => "Ya te has adentrado en la digitalización con un sistema que permite controlar, monitorizar y documentar todos los procesos de producción automáticamente y de forma eficiente. El siguiente paso para aumentar tu competitivadad es integrar ese sisitema con la planificación de tus recursos empresariales y con todas las áreas de la organización para generar inteligencia empresarial e innovación."
+          'autodiagnostico' => "Ya te has adentrado en la digitalización con un sistema que permite controlar, monitorizar y documentar todos los procesos de producción automáticamente y de forma eficiente. El siguiente paso para aumentar tu competitividad es integrar ese sisitema con la planificación de tus recursos empresariales y con todas las áreas de la organización para generar inteligencia empresarial e innovación."
         ),
         
         'Respuesta 2-2-1-d' => array(
@@ -318,17 +318,17 @@ class dfPreguntas {
         'Respuesta 2-2-2-d' => array(
           'puntuacion' => 5,
           'enunciado' => "Empleo sistemas de análisis avanzado y machine learning",
-          'autodiagnostico' => "Tu cadena de suministro es de una industria 4.0. Tecnologías avanzadas como machine learning e inteligancia artificial te permiten identificar patrones y enfocar el análisis de la información hacia objetivos concretos. Puedes hacer predicciones de consumo y de la demanda de productos en base a distintos factores internos y externos, detectar anomalías y anticipar posibles problemas, lo que ahorra tiempo y dinero. Tu personal cuenta con herramientas para tomar decisiones más inteligentes y has conformado una eficiente red de información con tus proveedores y partners."
+          'autodiagnostico' => "Tu cadena de suministro es de una industria 4.0. Tecnologías avanzadas como machine learning e inteligencia artificial te permiten identificar patrones y enfocar el análisis de la información hacia objetivos concretos. Puedes hacer predicciones de consumo y de la demanda de productos en base a distintos factores internos y externos, detectar anomalías y anticipar posibles problemas, lo que ahorra tiempo y dinero. Tu personal cuenta con herramientas para tomar decisiones más inteligentes y has conformado una eficiente red de información con tus proveedores y partners."
         )
       )
     ),
     '2-3-1' => array(
-      'enunciado' => "¿Cómo gestionas tu relación con tus clientes?",
+      'enunciado' => "¿Cómo gestiónas tu relación con tus clientes?",
       'respuestas' => array(
         'Respuesta 2-3-1-a' => array(
           'puntuacion' => 1,
           'enunciado' => "Recojo y analizo datos generales de los clientes",
-          'autodiagnostico' => "El seguimiento de tus clientes es fundamental para tu negocio, pero debes ir más allá si quieres lograr una transformación digital. El siguiente paso es analizar el comportamiento, gustos y perfiles de tus clientes actuales, consumidores y clientes mets para que puedas ofrecerles nuevos productos y servicios."
+          'autodiagnostico' => "El seguimiento de tus clientes es fundamental para tu negocio, pero debes ir más allá si quieres lograr una transformación digital. El siguiente paso es analizar el comportamiento, gustos y perfiles de tus clientes actuales, consumidores y clientes meta para que puedas ofrecerles nuevos productos y servicios."
         ),
         
         'Respuesta 2-3-1-b' => array(
@@ -340,7 +340,7 @@ class dfPreguntas {
         'Respuesta 2-3-1-c' => array(
           'puntuacion' => 3,
           'enunciado' => "Ofrezco servicios postventa y atención a clientes",
-          'autodiagnostico' => "Te encuentras muy cerca de alcanzar el escenario ideal para que tu negocio sea más competitivo en el mundo digital. Debes comenzar a centrar tu estrategia empresarial hacia el cliente, con una visión conjunta a lo largo de toda la organización, e involucrarlo en el diseño de tus prouductos. Para ello, debes contar con herramientas de big data y business intelligence"
+          'autodiagnostico' => "Te encuentras muy cerca de alcanzar el escenario ideal para que tu negocio sea más competitivo en el mundo digital. Debes comenzar a centrar tu estrategia empresarial hacia el cliente, con una visión conjunta a lo largo de toda la organización, e involucrarlo en el diseño de tus productos. Para ello, debes contar con herramientas de big data y business intelligence"
         ),
         
         'Respuesta 2-3-1-d' => array(
@@ -362,7 +362,7 @@ class dfPreguntas {
         'Respuesta 2-3-2-b' => array(
           'puntuacion' => 2,
           'enunciado' => "La visión digital está a cargo de los jefes de las áreas funcionales",
-          'autodiagnostico' => "Una buena manera de preparar el camino para la trasnformación digital es que los jefes de área propaguen la visión digital del negocio a lo largo y ancho de sus departamentos. Solo tendrá éxito el proceso de tansformación cuando todos los miembros de la organización, vertical y horizontalmente, compartan la misma visión."
+          'autodiagnostico' => "Una buena manera de preparar el camino para la transformación digital es que los jefes de área propaguen la visión digital del negocio a lo largo y ancho de sus departamentos. Solo tendrá éxito el proceso de transformación cuando todos los miembros de la organización, vertical y horizontalmente, compartan la misma visión."
         ),
         
         'Respuesta 2-3-2-c' => array(
@@ -374,7 +374,7 @@ class dfPreguntas {
         'Respuesta 2-3-2-d' => array(
           'puntuacion' => 5,
           'enunciado' => "Sí, la visión digital es prioridad en la captación de talento y la innovación",
-          'autodiagnostico' => "¡Enhorabuena! Has incorproado la gestión del talento digital como factor estratégico de tu negocio. No olvides que las políticas, prácticas y herramientas de gestión del talento digital deben ser revisadas y actualizadas con regularidad."
+          'autodiagnostico' => "¡Enhorabuena! Has incorporado la gestión del talento digital como factor estratégico de tu negocio. No olvides que las políticas, prácticas y herramientas de gestión del talento digital deben ser revisadas y actualizadas con regularidad."
         )
       )
     ),
@@ -385,13 +385,13 @@ class dfPreguntas {
         'Respuesta 3-1-1-a' => array(
           'puntuacion' => 1,
           'enunciado' => "Sé que aporta beneficios pero aún no la he aplicado a mi negocio",
-          'autodiagnostico' => "Estar conciente de los beneficios que la transformación digital puede aportar a tu negocio es importante, pero no dejes pasar mucho tiempo para trazarte un plan que te permita llevar tu negocio hacia la digitalización."
+          'autodiagnostico' => "Estar consciente de los beneficios que la transformación digital puede aportar a tu negocio es importante, pero no dejes pasar mucho tiempo para trazarte un plan que te permita llevar tu negocio hacia la digitalización."
         ),
         
         'Respuesta 3-1-1-b' => array(
           'puntuacion' => 2,
           'enunciado' => "Es importante y ya me he planteado algunos objetivos concretos",
-          'autodiagnostico' => "Estar conciente de los beneficios que la transformación digital puede aportar a tu negocio es importante, pero no dejes pasar mucho tiempo para trazarte un plan que te permita llevar tu negocio hacia la digitalización."
+          'autodiagnostico' => "Estar consciente de los beneficios que la transformación digital puede aportar a tu negocio es importante, pero no dejes pasar mucho tiempo para trazarte un plan que te permita llevar tu negocio hacia la digitalización."
         ),
         
         'Respuesta 3-1-1-c' => array(
@@ -413,7 +413,7 @@ class dfPreguntas {
         'Respuesta 3-1-2-a' => array(
           'puntuacion' => 1,
           'enunciado' => "Aumentar la productividad y la eficiencia",
-          'autodiagnostico' => "No hay duda de que aumentar la productividad y la eficiencia significa generar mayor rentabilidad del negocio, pero en la economía actual esto no es suficiente para competir en mercados que se hacen cada vez más digitales. La transformación debe darse en todas la áreas del negocio, no solo en la operatividad."
+          'autodiagnostico' => "No hay duda de que aumentar la productividad y la eficiencia significa generar mayor rentabilidad del negocio, pero en la economía actual esto no es suficiente para competir en mercados que se hacen cada vez más digitales. La transformación debe darse en todas la áreas del negocio, no solo en la operativa."
         ),
         
         'Respuesta 3-1-2-b' => array(
@@ -475,13 +475,13 @@ class dfPreguntas {
           'Respuesta 3-2-2-b' => array(
             'puntuacion' => 3,
             'enunciado' => "Las anteriores y plataformas intermedias (Idealista, Booking, Infojobs, etc.)",
-            'autodiagnostico' => "Sabes aprovechar las ventajas y oportunidades de negocio que brinda Internet, pero no olvides que una estrategia de marketing digital te permite, entro otros, promocionar tu marca y tus servicios, captar clientes potenciales, convertirlos en clientes y fidelizarlos para que sean referentes, además de proporcionar una valiosa cantidad de datos para futuras estrategias de mercado."
+            'autodiagnostico' => "Sabes aprovechar las ventajas y oportunidades de negocio que brinda Internet, pero no olvides que una estrategia de marketing digital te permite, entro otros, promocionar tu marca y tus servicios, captar clientes potenciales, convertirlos en clientes actuales y fidelizarlos para que sean referentes, además de proporcionar una valiosa cantidad de datos para futuras estrategias de mercado."
           ),
           
           'Respuesta 3-2-2-c' => array(
             'puntuacion' => 5,
             'enunciado' => "Herramientas de marketing digital (Ads, Hubspot, Mailchimp, etc.)",
-            'autodiagnostico' => "El marketing tradicional se ha extendido al mundo digital y has acertado al tener una estrategia de markering digital para tu negocio. La tendencia es que la línea entre lo físico y lo virtual desaparece y tú ya estás preparado para desarrollar estrategias de marekting integral."
+            'autodiagnostico' => "El marketing tradicional se ha extendido al mundo digital y has acertado al tener una estrategia de marketing digital para tu negocio. La tendencia es que la línea entre lo físico y lo virtual desaparece y tú ya estás preparado para desarrollar estrategias de marketing integral."
           ),
           
           'Respuesta 3-2-2-d' => array(
@@ -492,7 +492,7 @@ class dfPreguntas {
         )
     ),
     '3-3-1' => array(
-      'enunciado' => "¿Cómo gestionas tu relación con tus clientes?",
+      'enunciado' => "¿Cómo gestiónas tu relación con tus clientes?",
       'respuestas' => array(
         'Respuesta 3-3-1-a' => array(
           'puntuacion' => 2,
@@ -531,7 +531,7 @@ class dfPreguntas {
         'Respuesta 3-3-2-b' => array(
           'puntuacion' => 3,
           'enunciado' => "La visión digital está a cargo de los jefes de las áreas funcionales",
-          'autodiagnostico' => "Una buena manera de preparar el camino para la trasnformación digital es que los jefes de área propaguen la visión digital del negocio a lo largo y ancho de sus departamentos. Solo tendrá éxito el proceso de tansformación cuando todos los miembros de la organización, vertical y horizontalmente, compartan la misma visión."
+          'autodiagnostico' => "Una buena manera de preparar el camino para la transformación digital es que los jefes de área propaguen la visión digital del negocio a lo largo y ancho de sus departamentos. Solo tendrá éxito el proceso de transformación cuando todos los miembros de la organización, vertical y horizontalmente, compartan la misma visión."
         ),
         
         'Respuesta 3-3-2-c' => array(
@@ -543,7 +543,7 @@ class dfPreguntas {
         'Respuesta 3-3-2-d' => array(
           'puntuacion' => 5,
           'enunciado' => "Sí, la visión digital es prioridad en la captación de talento y la innovación",
-          'autodiagnostico' => "¡Enhorabuena! Has incorproado la gestión del talento digital como factor estratégico de tu negocio. No olvides que las políticas, prácticas y herramientas de gestión del talento digital deben ser revisadas y actualizadas con regularidad."
+          'autodiagnostico' => "¡Enhorabuena! Has incorporado la gestión del talento digital como factor estratégico de tu negocio. No olvides que las políticas, prácticas y herramientas de gestión del talento digital deben ser revisadas y actualizadas con regularidad."
         )
       )
     )
