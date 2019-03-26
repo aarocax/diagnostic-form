@@ -82,13 +82,13 @@ class dfPreguntas {
         'Respuesta 1-1-2-b' => array(
           'puntuacion' => 5,
           'enunciado' => "Digitalizar mi tienda física (inventario, logística, transporte, etc.)",
-          'autodiagnostico' => "Está muy bien que dirijas esfuerzos hacia optimizar procesos operativos, logísticos y en mejorar la experiencia de compra de tus clientes, pero no olvides que las personas acuden cada vez acuden más a los canales online para realizar sus compras y que todas las acciones de la transformación digital deben girar en torno a las necesidades de tus cliente."
+          'autodiagnostico' => "Está muy bien que dirijas esfuerzos hacia optimizar procesos operativos, logísticos y en mejorar la experiencia de compra de tus clientes, pero no olvides que las personas cada vez acuden más a los canales online para realizar sus compras y que todas las acciones de la transformación digital deben girar en torno a las necesidades de tus cliente."
         ),
         
         'Respuesta 1-1-2-c' => array(
           'puntuacion' => 8,
           'enunciado' => "Implementar e-Commerce",
-          'autodiagnostico' => "¡Buena decisión! Eres consciente de que a nivel global las ventas en línea han estado creciendo más que las ventas en tienda y que la tendencia es que esa brecha se amplíe. El comercio electrónico es una sabia decisión para tu negocio. Sin embargo, no pierdas de vista de que los clientes esperan poder buscar, comprar y devolver productos a través de diversos canales, la omnicanalidad es el modelo ideal de comercialización."
+          'autodiagnostico' => "¡Buena decisión! Eres consciente de que a nivel global las ventas en línea han estado creciendo más que las ventas en tienda y que la tendencia es que esa brecha se amplíe. El comercio electrónico es una sabia decisión para tu negocio. Sin embargo, no pierdas de vista que los clientes esperan poder buscar, comprar y devolver productos a través de diversos canales, la omnicanalidad es el modelo ideal de comercialización."
         ),
         
         'Respuesta 1-1-2-d' => array(
@@ -132,7 +132,7 @@ class dfPreguntas {
         'Respuesta 1-2-2-a' => array(
           'puntuacion' => 2,
           'enunciado' => "Página web / blog / Redes sociales",
-          'autodiagnostico' => "Vas por buen camino, la presencia en internet es una enorme puerta de entrada para tus clientes potenciales y una gran herramienta de comunicación, sin mencionar que es una fuente de datos muy valiosa, pero no olvides que los consumidores acuden cada vez acuden más a las plataformas online para realizar sus compras, el comercio electrónico es fundamental en la transformación digital."
+          'autodiagnostico' => "Vas por buen camino, la presencia en internet es una enorme puerta de entrada para tus clientes potenciales y una gran herramienta de comunicación, sin mencionar que es una fuente de datos muy valiosa, pero no olvides que los consumidores acuden cada vez más a las plataformas online para realizar sus compras, el comercio electrónico es fundamental en la transformación digital."
         ),
         
         'Respuesta 1-2-2-b' => array(
